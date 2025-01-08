@@ -1,4 +1,7 @@
-.two-pic{background-image: url('./images/developer.png'),url('./images/header_bg.png');
+*{padding: 0;
+  margin: 0;}
+
+.two-pic{background-image: url("./images/developer.png"), url("./images/header_bg.png");
 background-repeat: no-repeat;
 background-position: left top ,right bottom;}
 
@@ -43,7 +46,10 @@ nav  {display: flex;
     margin: 18px 200px;
       
 }
+     /* bg color  */
 .color2{color: #474747;}
+.color3{color: #FFFFFF;}
+.bg-color{background-color: #FFF8F3;}
 
 
 
@@ -71,6 +77,13 @@ ul li a{text-decoration: none;}
 .head{display: flex;
       justify-content: space-between;
       margin: 0 35px 0 150px;}
+/* text center style */
+.text-center{text-align: center;}
+
+/* skills container */
+.skills-container{display: flex;
+                 justify-content: space-between;}  
+
 
 /* banner content  */
 
@@ -79,4 +92,34 @@ ul li a{text-decoration: none;}
            font-weight:700;}
 
 .name{font-size: 85px;
-        font-weight: bold;}           
+        font-weight: bold;}     
+        
+/* section style     */    
+.section-title{font-size: 35px;
+               font-weight: bold;
+               color: #181818;}
+.section-description{font-size: 18px;
+                     color: #757575;
+                      
+    }       
+main{ max-width: 1140px;
+           margin:0 auto
+            }  
+
+ section  {margin-top: 130px;
+               margin-bottom: 120px;}           
+            
+.about{border-radius: 10px;
+                   padding: 130px;
+                   text-align: center;
+                   margin-top: 130px;}
+
+.about-items{display: flex;
+                    justify-content: space-around;
+                    }
+ .item-title{color: #757575;
+            font-size: 20px;} 
+        
+           /*  3rd page */
+
+.skill{margin-top: 60px;}
