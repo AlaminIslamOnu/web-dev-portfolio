@@ -1,4 +1,4 @@
-.two-pic{background-image: url('./images/developer.png') ,url('./images/header_bg.png');
+.two-pic{background-image: url('./images/developer.png'),url('./images/header_bg.png');
 background-repeat: no-repeat;
 background-position: left top ,right bottom;}
 
