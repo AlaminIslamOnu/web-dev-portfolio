@@ -1,0 +1,82 @@
+.two-pic{background-image: url('./images/developer.png') ,url('./images/header_bg.png');
+background-repeat: no-repeat;
+background-position: left top ,right bottom;}
+
+.work-sans-normal{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+.color{color: #FD6E0A;}
+.btn{background-color: #FD6E0A;
+     border: none;
+     color: white;
+     height: 50px;
+     width: 120px;
+     font-size: 18px;
+     font-weight: bold;
+     padding: 10px;
+     border-radius: 5px;}
+
+     .btn2{background-color: #FD6E0A;
+        padding: 10px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-size: 18px;
+        }
+
+        .btn3{background-color: transparent;
+            padding: 20px;
+            font-weight: bold;
+            border: 2px solid #FD6E0A;
+            border-radius: 5px;
+            color: #FD6E0A;
+            font-size: 18px;}
+
+nav  {display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 18px 200px;
+      
+}
+.color2{color: #474747;}
+
+
+
+nav ul {display: flex;
+       align-items: center;
+    justify-content: space-around;}
+
+.nav-title{font-weight: 800;
+           font-size: 45px;}
+     
+nav ul li {
+            list-style-type: none;
+            margin-left: 50px;
+            
+}
+ul li a{text-decoration: none;}
+                            /*       end of the nav bar */
+
+
+.btn-container{display: flex;
+                gap: 10px;
+              }
+
+
+.head{display: flex;
+      justify-content: space-between;
+      margin: 0 35px 0 150px;}
+
+/* banner content  */
+
+
+.greatting{font-size: 45px;
+           font-weight:700;}
+
+.name{font-size: 85px;
+        font-weight: bold;}           
